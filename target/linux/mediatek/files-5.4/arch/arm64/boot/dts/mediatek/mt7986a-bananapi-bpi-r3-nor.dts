@@ -19,7 +19,7 @@
 
 	fan: pwm-fan {
 		compatible = "pwm-fan";
-		cooling-levels = <255 96 48>;
+		cooling-levels = <255 96 52 0>;
 		pwms = <&pwm 0 10000 0>;
 		status = "okay";
 	};
